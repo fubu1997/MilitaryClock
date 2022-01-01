@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stylish&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- custom Css -->
+    <link rel="stylesheet" href="/MilitaryClock/midiaQuery.css" />
+    <link rel="stylesheet" href="/MilitaryClock/index.css" />
+    <title>전역일 계산기</title>
+  </head>
+  <body>
+    <!-- ************************************************************************************************* -->
+    <!-- navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="/MilitaryClock/index.html">전역일 계산기</a>
+      <p>copyright fubu1997 @ All rights reserved.</p>
+    </nav>
+    <!-- header section -->
+    <div class="jumbotron">
+      <h1 class="display-4">전역일 계산기</h1>
+      <p class="lead my-4">
+        육군,해군,공군,의무경찰,의무소방등 여러가지 전역일을 계산하실수
+        있습니다.
+      </p>
+      <hr class="my-4" />
+      <!-- btn section -->
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary">육군</button>
+        <button type="button" class="btn btn-secondary">해군</button>
+        <button type="button" class="btn btn-secondary">공군</button>
+        <button type="button" class="btn btn-secondary">의무경찰</button>
+        <button type="button" class="btn btn-secondary">해양의무경찰</button>
+        <button type="button" class="btn btn-secondary">의무소방</button>
+        <button type="button" class="btn btn-secondary">사회복무요원</button>
+      </div>
+    </div>
+
+    <!-- 입대일 입력 -->
+    <form class="insertForm">
+      <h3>입대일을 입력해주세요.</h3>
+      <label for="submit">입대일</label>
+      <input type="number" placeholder="2022" />년
+      <input type="number" placeholder="00" />월
+      <input type="number" placeholder="00" />일
+      <span style="font-size: 1.5rem; font-weight: bold">or</span>
+      <input type="date" />
+      <button>계산하기</button>
+    </form>
+
+    <!-- main content -->
+    <div class="main-content">
+      <p>sssssssss</p>
+    </div>
+    <!-- ************************************************************************************************* -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/MilitaryClock/index.js"></script>
+  </body>
+</html>
