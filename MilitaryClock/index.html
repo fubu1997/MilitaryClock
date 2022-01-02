@@ -50,30 +50,40 @@
       <hr class="my-4" />
       <!-- btn section -->
       <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary">육군</button>
-        <button type="button" class="btn btn-secondary">해군</button>
-        <button type="button" class="btn btn-secondary">공군</button>
-        <button type="button" class="btn btn-secondary">의무경찰</button>
-        <button type="button" class="btn btn-secondary">해양의무경찰</button>
-        <button type="button" class="btn btn-secondary">의무소방</button>
-        <button type="button" class="btn btn-secondary">사회복무요원</button>
+        <button id="육군" type="button" class="btn btn-secondary">육군</button>
+        <button id="해군" type="button" class="btn btn-secondary">해군</button>
+        <button id="공군" type="button" class="btn btn-secondary">공군</button>
+        <button id="의무경찰" type="button" class="btn btn-secondary">
+          의무경찰
+        </button>
+        <button id="해양의무경찰" type="button" class="btn btn-secondary">
+          해양의무경찰
+        </button>
+        <button id="의무소방" type="button" class="btn btn-secondary">
+          의무소방
+        </button>
+        <button id="사회복무요원" type="button" class="btn btn-secondary">
+          사회복무요원
+        </button>
       </div>
     </div>
 
     <!-- 입대일 입력 -->
-    <form class="insertForm" onsubmit="return false">
+    <form class="insertForm hidden" onsubmit="return false">
       <h3>입대일을 입력해주세요.</h3>
       <input id="insertDate" type="date" />
       <button id="insertBtn">계산하기</button>
+      <hr class="my-4" />
+      <p id="insertDateText"></p>
     </form>
 
     <!-- main content -->
     <div class="main-content">
-      <h3>00 전역일 계산기</h3>
+      <h3>전역일 계산기</h3>
       <div>
         <p>총복무일 :</p>
         <p>복무율 :</p>
-        <p>전역일 :</p>
+        <p id="FinalDay">전역일 :</p>
       </div>
       <div class="prograssBar">
         <img src="/MilitaryClock/img/soldier.png" width="100rem" />
