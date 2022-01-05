@@ -1,0 +1,44 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+p {
+  font-size: 1rem;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn-group {
+  width: 100%;
+  margin: 1px;
+}
+.btn {
+  font-size: 0.8rem;
+}
+
+/* 입대일을 입력해주세요 */
+.inputContainer {
+  text-align: center;
+}
+.inputContainer h3 {
+  margin-bottom: 10px;
+}
+.inputContainer input {
+  width: 50%;
+}
+.inputContainer button {
+  width: 30%;
+}
+.inputContainer p {
+  margin-top: 10px;
+  font-weight: bold;
+}
