@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: https://militaryclock.netlify.app/sitemap.xml
